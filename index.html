@@ -3,37 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Balaji Kumar Varma G | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Balaji Kumar Varma G</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-p1Cm6mFeaG5nKXVjvH+0go0iS+bs/oF7uOAO3oxoXKriLn3b8hcSUKB4fUFirt8fJvjAZq8mTDVQbsF5hwvY0A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
 </head>
 <body>
-  <header>
-    <h1 id="name">Loading…</h1>
-    <p id="summary"></p>
-  </header>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">YourLogo</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Case Studies</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Recent Work</a></li>
+        <li><a class="btn-contact" href="#">Get In Touch</a></li>
+      </ul>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </nav>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p id="address"></p>
-    <p id="phone"></p>
-    <p id="email"></p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Balaji Kumar Varma G</h1>
+        <p>
+          Results-driven Computer Science Engineering student with strong
+          programming foundations and practical experience in web
+          development and AI integration.
+        </p>
+        <a class="btn-primary" href="#contact">Let’s Get Started &rsaquo;</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/profile.jpg" alt="Balaji Kumar Varma G">
+      </div>
+    </div>
   </section>
 
-  <section id="experience">
-    <h2>Work Experience</h2>
-    <div id="jobs"></div>
+  <!-- Worked With -->
+  <section class="worked-with">
+    <div class="container">
+      <h2>Worked with</h2>
+      <div class="logos">
+        <img src="images/clickup.png" alt="ClickUp">
+        <img src="images/dropbox.png" alt="Dropbox">
+        <img src="images/paychex.png" alt="Paychex">
+        <img src="images/elastic.png" alt="Elastic">
+        <img src="images/stripe.png" alt="Stripe">
+      </div>
+    </div>
   </section>
-
-  <section id="education">
-    <h2>Education</h2>
-    <div id="edu"></div>
-  </section>
-
-  <section id="skills">
-    <h2>Technical Skills</h2>
-    <ul id="skillList"></ul>
-  </section>
-
-  <script src="script.js"></script>
 </body>
 </html>
