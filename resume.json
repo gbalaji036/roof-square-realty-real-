@@ -1,0 +1,40 @@
+{
+  "name": "Balaji Kumar Varma G",
+  "address": "#549 Sri Nilayam 2nd floor, Bengaluru, Karnataka",
+  "phone": "9483993768",
+  "email": "balajikumarvarma768@gmail.com",
+  "summary": "Results-driven Computer Science Engineering student with strong programming foundations and practical experience in web development and AI integration.",
+  "experience": [
+    {
+      "role": "Web Developer & Digital Content Creator",
+      "company": "Roof Square Realty",
+      "period": "2024 - Present",
+      "duties": [
+        "Developed and maintained responsive websites integrating AI functionality",
+        "Created digital marketing content and implemented strategies to improve online presence",
+        "Collaborated on real estate technology solutions",
+        "Applied programming skills in Python and Java for backend development"
+      ]
+    }
+  ],
+  "education": {
+    "degree": "B.Tech in Computer Science Engineering",
+    "university": "[Your University Name]",
+    "period": "Aug 2023 - May 2027 (Expected)",
+    "cgpa": "7.2/10",
+    "coursework": [
+      "Data Structures and Algorithms",
+      "Database Management Systems",
+      "Web Technologies",
+      "Software Engineering",
+      "Artificial Intelligence"
+    ]
+  },
+  "skills": {
+    "programming": ["C", "Python", "Java"],
+    "web": ["Full-stack development", "AI integration", "Database management"],
+    "digital": ["Content creation", "Digital marketing", "UI/UX design"],
+    "tools": ["VS Code", "GitHub", "Hostinger", "N8n automation"],
+    "languages": ["English", "Hindi"]
+  }
+}
