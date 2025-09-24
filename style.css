@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+section {
+  margin-top: 40px;
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+#jobs article,
+#edu article {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
